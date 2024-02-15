@@ -1,6 +1,6 @@
 {
   "name": "@avenue-ui/eslint-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Avenue UI eslint configuration",
   "author": "Vasiliy Kochurko <kochurko.dev@outlook.com>",
   "publishConfig": {
