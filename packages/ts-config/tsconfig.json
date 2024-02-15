@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "strict": true,
+    "newLine": "lf",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "pretty": true,
+    "stripInternal": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noFallthroughCasesInSwitch": true,
+    "noEmitOnError": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "experimentalDecorators": true,
+    "allowJs": true
+  }
+}

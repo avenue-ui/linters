@@ -1,0 +1,60 @@
+{
+  "name": "@avenue-ui/eslint-config",
+  "version": "1.0.0",
+  "description": "Avenue UI eslint configuration",
+  "author": "Vasiliy Kochurko <kochurko.dev@outlook.com>",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avenue-ui/linters.git"
+  },
+  "bugs": {
+    "url": "https://github.com/avenue-ui/linters/issues"
+  },
+  "homepage": "https://github.com/avenue-ui/linters/blob/main/packages/eslint-config/README.md",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "files": [
+    "base.js",
+    "cln.js",
+    "order.js",
+    "lib.js",
+    "prettier.js",
+    "react.js",
+    "srv.js"
+  ],
+  "keywords": [
+    "eslint",
+    "config",
+    "react",
+    "prettier"
+  ],
+  "devDependencies": {
+    "eslint": "^8.56.0"
+  },
+  "peerDependencies": {
+    "eslint": "^8.56.0",
+    "prettier": "^3.2.5"
+  },
+  "peerDependenciesMeta": {
+    "prettier": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@babel/core": "^7.23.9",
+    "@babel/eslint-parser": "^7.23.10",
+    "@babel/preset-react": "^7.23.3",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-import-resolver-typescript": "^3.6.1",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-prettier": "^5.1.3",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-security": "^2.1.0"
+  }
+}

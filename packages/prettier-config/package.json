@@ -1,0 +1,29 @@
+{
+  "name": "@avenue-ui/prettier-config",
+  "version": "1.0.0",
+  "description": "Avenue UI prettier config.",
+  "author": "Vasiliy Kochurko <kochurko.dev@outlook.com>",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avenue-ui/linters.git"
+  },
+  "bugs": {
+    "url": "https://github.com/avenue-ui/linters/issues"
+  },
+  "homepage": "https://github.com/avenue-ui/linters/blob/main/packages/prettier-config/README.md",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "prettier",
+    "config"
+  ],
+  "files": ["index.js"],
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  },
+  "peerDependencies": {
+    "prettier": "^3.2.5"
+  }
+}

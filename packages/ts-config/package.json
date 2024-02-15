@@ -1,0 +1,32 @@
+{
+  "name": "@avenue-ui/ts-config",
+  "version": "1.0.0",
+  "description": "Avenue UI TypeScript config for our projects",
+  "author": "Vasiliy Kochurko <kochurko.dev@outlook.com>",
+  "homepage": "https://github.com/avenue-ui/linters#readme",
+  "license": "Apache-2.0",
+  "keywords": [
+    "typescript",
+    "tsconfig",
+    "config"
+  ],
+  "files": [
+    "tsconfig.json"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avenue-ui/linters.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "bugs": {
+    "url": "https://github.com/avenue-ui/linters/issues"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.3.3"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "root",
+  "private": true,
+  "author": {
+    "name": "Vasiliy Kochurko",
+    "email": "kochurko.dev@outlook.com"
+  },
+  "license": "Apache-2.0",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "root": "file:"
+  },
+  "scripts": {
+    "prepare": "husky",
+    "lint:prettier": "npm run prettier -- --check",
+    "prettier": "prettier '**/*.{js,md,yaml,yml,json}'",
+    "lint:eslint": "eslint .",
+    "*** Install ***": "",
+    "postinstall": "npm install && husky",
+    "*** Build ***": "",
+    "build:prod": "lerna run ",
+    "*** Version ***": "",
+    "version": "lerna version --no-private --conventional-commits --changelog-preset conventionalcommits --yes --ignore-changes '**/package-lock.json'"
+  },
+  "devDependencies": {
+    "@avenue-ui/eslint-config": "^1.0.0",
+    "@avenue-ui/prettier-config": "^1.0.0",
+    "@commitlint/cli": "18.6.0",
+    "@commitlint/config-conventional": "18.6.0",
+    "eslint": "^8.56.0",
+    "husky": "^9.0.10",
+    "lerna": "^8.1.2",
+    "nano-staged": "^0.8.0",
+    "prettier": "3.2.5"
+  },
+  "nano-staged": {
+    "*.{md,yaml,yml,json}": [
+      "prettier --write"
+    ],
+    "*.{js, ts}": [
+      "eslint --fix --quiet"
+    ]
+  }
+}

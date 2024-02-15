@@ -1,0 +1,47 @@
+{
+  "name": "@avenue-ui/stylelint-config",
+  "version": "1.0.0",
+  "description": "Avenue UI stylelint config.",
+  "author": "Vasiliy Kochurko <kochurko.dev@outlook.com>",
+  "keywords": [
+    "stylelint",
+    "prettier",
+    "config"
+  ],
+  "homepage": "https://github.com/avenue-ui/linters/blob/main/packages/stylelint-config/README.md",
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avenue-ui/linters.git"
+  },
+  "bugs": {
+    "url": "https://github.com/avenue-ui/linters/issues"
+  },
+  "devDependencies": {
+    "stylelint": "^16.2.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "prettier.js",
+    "order.js"
+  ],
+  "dependencies": {
+    "postcss-scss": "^4.0.9",
+    "stylelint-order": "^6.0.4",
+    "stylelint-prettier": "^5.0.0",
+    "stylelint-scss": "^6.1.0"
+  },
+  "peerDependencies": {
+    "postcss": "^8.4.35",
+    "prettier": "^3.2.5",
+    "stylelint": "^16.2.1"
+  },
+  "peerDependenciesMeta": {
+    "prettier": {
+      "optional": true
+    }
+  }
+}
