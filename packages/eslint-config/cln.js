@@ -1,5 +1,5 @@
 module.exports = {
-    extend: ['./react'],
+    extends: ['./react'],
     parserOptions: {
         sourceType: 'module',
     },
